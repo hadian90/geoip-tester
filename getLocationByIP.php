@@ -10,7 +10,7 @@
         '139.178.84.217',
     );
     foreach ($ip_list as $ip){
-        $record = $reader->city($ip);
+        $record = $reader->country($ip);
 
         print("Information for IP: $ip\n");
 
