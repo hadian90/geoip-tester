@@ -16,9 +16,6 @@
 
         print("Country Short Code: " . $record->country->isoCode . "\n");
         print("Country Name: " . $record->country->name . "\n");
-
-        print("Latitude: ". $record->location->latitude ." \n");
-        print("Longitude: ". $record->location->longitude ."\n");
         print ("====================================\n");
     }
 ?>
